@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merch KaczuchaYT & KurokYT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>KaczuchaYT & KurokYT</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#shop">Sklep</a></li>
+                    <li><a href="#about">O nas</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="#cart">Koszyk</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Twój ulubiony merch od KaczuchaYT i KurokYT!</h2>
+                <p>Dołącz do społeczności fanów z wyjątkowymi produktami.</p>
+                <a href="#shop" class="btn">Przeglądaj produkty</a>
+            </div>
+        </section>
+
+        <section id="shop" class="shop">
+            <div class="container">
+                <h2>Sklep</h2>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="bluza.jpg" alt="Bluza KaczuchaYT">
+                        <h3>Bluza KaczuchaYT</h3>
+                        <p>149,99 PLN</p>
+                        <button class="add-to-cart" data-product="Bluza KaczuchaYT" data-price="149.99">Dodaj do koszyka</button>
+                    </div>
+                    <div class="product">
+                        <img src="koszulka.jpg" alt="Koszulka KurokYT">
+                        <h3>Koszulka KurokYT</h3>
+                        <p>99,99 PLN</p>
+                        <button class="add-to-cart" data-product="Koszulka KurokYT" data-price="99.99">Dodaj do koszyka</button>
+                    </div>
+                    <div class="product">
+                        <img src="kubek.jpg" alt="Kubek z logo">
+                        <h3>Kubek z logo</h3>
+                        <p>39,99 PLN</p>
+                        <button class="add-to-cart" data-product="Kubek z logo" data-price="39.99">Dodaj do koszyka</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>O nas</h2>
+                <p>KaczuchaYT i KurokYT to kreatywny duet gamerów, którzy stworzyli wyjątkowy merch dla swoich fanów. Każdy produkt został zaprojektowany z myślą o społeczności.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <form>
+                    <input type="text" placeholder="Twoje imię" required>
+                    <input type="email" placeholder="Twój email" required>
+                    <textarea placeholder="Twoja wiadomość" required></textarea>
+                    <button type="submit">Wyślij</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="cart" class="cart">
+            <div class="container">
+                <h2>Koszyk</h2>
+                <div id="cart-items"></div>
+                <p>Łączna kwota: <span id="total-price">0.00 PLN</span></p>
+                <button id="checkout">Przejdź do płatności</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 KaczuchaYT & KurokYT. Wszystkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+        <!-- PayPal -->
+        <div id="paypal-button-container"></div>
+    </div>
+</section>
+
+<script src="https://www.paypal.com/sdk/js?client-id=TWÓJ_CLIENT_ID_PAYPAL&currency=PLN"></script>
+<script src="script.js"></script>
+
+
+    <footer>
+        <div class="container">
+            <p>© 2024 KaczuchaYT & KurokYT. Wszystkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
